@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  data_consulta: 2016-09-22
+  descricao: MyString
+  procedimento_id: 1
+  dentista_id: 1
+  paciente_id: 1
+
+two:
+  data_consulta: 2016-09-22
+  descricao: MyString
+  procedimento_id: 1
+  dentista_id: 1
+  paciente_id: 1

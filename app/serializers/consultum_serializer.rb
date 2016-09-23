@@ -4,6 +4,6 @@ class ConsultumSerializer < BaseSerializer
   belongs_to :paciente
   has_many :procedimentos
   link(:self) { consultum_path(object) }
-  link(:pedidos) { cliente_pedidos_path(object) }
+  link(:procedimentos) { consultum_procedimentos_path(object) }
 
 end
